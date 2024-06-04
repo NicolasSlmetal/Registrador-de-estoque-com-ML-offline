@@ -1,4 +1,6 @@
 *.data-* filter=lfs diff=lfs merge=lfs -text
 *.py linguist-language=Python
 *.pb linguist-detectable=false
+path/to/specific_file linguist-language=Python
+path/to/python/directory/* linguist-language=Python
 
