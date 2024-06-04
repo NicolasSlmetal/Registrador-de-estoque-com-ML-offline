@@ -1,2 +1,4 @@
 *.data-* filter=lfs diff=lfs merge=lfs -text
 *.py linguist-language=Python
+*.pb linguist-detectable=false
+
